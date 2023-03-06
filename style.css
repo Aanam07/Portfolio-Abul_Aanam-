@@ -1,164 +1,166 @@
 /* Basic Styles */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: lightblue;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  
-  header {
-    background-color: black;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-    margin: 0;
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin-left: 20px;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-  }
-  
-  .section {
-    background-color: #f1f1f1;
-    padding: 40px;
-    box-shadow: 0 2px 4px rgba(0,0,0,.1);
-  }
-  
-  .section li {
-    background-color: bisque ;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,.1);
-  }
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff; 
+}
 
-  .section li ul{
-    
-    color: green;
-  }
-  
-  
-  section {
-    margin-bottom: 40px;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: darkblue;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 20px;
-    
-  }
-  
-  h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: darkred;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  footer p {
-    margin: 0;
-  }
-  
-  /* Custom Styles */
-  
-  /* About Section */
-  
-  #about {
-    background-color: #fff;
-  }
-  
-  #about p {
-    margin-bottom: 20px;
-  }
-  
-  /* Contact Section */
-  
-  #contact {
-    background-color: #fff;
-  }
-  
-  form label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  form input,
-  form textarea {
-    border: none;
-    border-radius: 3px;
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 100%;
-  }
-  
-  form button[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  form button[type="submit"]:hover {
-    background-color: #666;
-  }
+header {
+  background-color: #1877f2; 
+  color: #fff;
+  padding: 20px;
+}
 
+
+h4 a {
+  color:  white;
+}
+
+
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f1f1f1;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.section {
+  background-color: #f1f1f1;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.section li {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1877f2; 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color:  #1877f2; 
+}
+
+footer {
+  background-color: #1877f2;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Custom Styles */
+
+/* About Section */
+
+#about {
+  
+  background-color: #f1f1f1;
+}
+
+#about p {
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+
+#contact {
+  background-color: #fff;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,form textarea {
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+form button[type="submit"] {
+  background-color: #1877f2; 
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #3b5998; 
+}
+  
   form input{
-    background-color: bisque;
+    background-color: #f1f1f1;
   }  
 
   form textarea{
-    background-color: bisque;
+    background-color: #f1f1f1;
   }  
 
   #myBtn {
@@ -180,3 +182,140 @@
   #myBtn:hover {
     background-color: red; /* Add a darker background on hover */
   }
+
+
+/* DARK MODE */
+
+/* Style for the button */
+.dark-mode-toggle {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px;
+  background-color:#555555;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.dark-mode header {
+      background-color: black; 
+      color: #fff;
+      padding: 20px;
+    }    
+
+
+/* About Section */
+
+.dark-mode #about {
+
+  background-color: black ;
+  color:  #f2f2f2;
+}
+
+.dark-mode #about p {
+  margin-bottom: 20px;
+  color: #f2f2f2;
+}
+
+
+.dark-mode h4 a {
+  color: #f2f2f2;
+  }
+  .dark-mode nav a {
+  color: #f2f2f2;
+  }
+  .dark-mode nav a:hover {
+  text-decoration-color: #f2f2f2;
+  }
+  
+  .dark-mode .section {
+  background-color: black;
+  color:  #f2f2f2;
+  }
+
+  .dark-mode .section li {
+  background-color: #555555;
+  }
+
+  .dark-mode #education li{
+      background-color: black;
+      color:  #f2f2f2;
+  }
+
+  .dark-mode #education li li{
+      background-color: #555555;
+      color:  #f2f2f2;
+  }
+
+  .dark-mode #awards li li{ 
+      background-color: #333333;
+      color:  #f2f2f2;
+  }
+  
+  .dark-mode h2 {
+  color: #f2f2f2;
+  }
+  
+  .dark-mode h3 {
+  color: #f2f2f2;
+  }
+
+/* Contact Section */
+
+.dark-mode #contact {
+  background-color:#333333;
+  color:  #f2f2f2;
+}    
+  
+.dark-mode footer {
+  background-color: #444444;
+  color:  #f2f2f2;
+  }
+  
+  .dark-mode footer p {
+  color: #f2f2f2;
+  }
+  
+  .dark-mode form input, .dark-mode form textarea {
+  background-color: #555555;
+  color: #f2f2f2;
+  }
+  
+  .dark-mode form button[type="submit"] {
+  background-color: black;
+  color:  #f2f2f2;
+  }
+  
+  .dark-mode form button[type="submit"]:hover {
+  background-color: black;
+  color:  #f2f2f2;
+  }
+  
+  .dark-mode #myBtn {
+  background-color: #f2f2f2;
+  color: #333333;
+  }
+  
+  .dark-mode #myBtn:hover {
+  background-color: #333333;
+  color: #f2f2f2;
+  }
+
+
+
+/* Style for the button dark mode */
+ .dark-mode .dark-mode-toggle {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px;
+  background-color: #fff  ;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  cursor: pointer;
+}
