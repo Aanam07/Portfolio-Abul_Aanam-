@@ -24,8 +24,9 @@ function toggleDarkMode() {
 
   var button = document.querySelector(".dark-mode-toggle");
   if (element.classList.contains("dark-mode")) {
-    button.innerHTML = "Light Mode";
+    button.innerHTML = "Click for Light Mode 💡";
   } else {
-    button.innerHTML = "Dark Mode";
+    button.innerHTML = "Click for Dark Mode 🌙" ;
   }
 }
+
